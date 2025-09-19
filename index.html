@@ -3,7 +3,7 @@
   <head>
     <title>ActivityPub</title>
     <meta charset="utf-8">
-    <script src="https://www.w3.org/Tools/respec/respec-w3c"
+    <script src="https://www.w3.org/Tools/respec/respec-w3c" 
             async class="remove"></script>
     <script class="remove">
       var respecConfig = {
@@ -2024,16 +2024,6 @@ Location: https://dustycloud.org/likes/345
           intermediate state.
           For example, a server might not send a <code>Reject</code> to protect
           a user's privacy.
-        </p>
-
-        <p>
-          In the case of receiving an <code>Accept</code> referencing this
-          <code>Follow</code> as the object, the server SHOULD add the
-          <code>actor</code> to the object actor's
-          <a href="#followers">Followers Collection</a>.
-          In the case of a <code>Reject</code>, the server MUST NOT add the
-          actor to the object actor's
-          <a href="#followers">Followers Collection</a>.
         </p>
 
         <div class="note">
