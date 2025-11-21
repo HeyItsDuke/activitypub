@@ -3,7 +3,7 @@
   <head>
     <title>ActivityPub</title>
     <meta charset="utf-8">
-    <script src="https://www.w3.org/Tools/respec/respec-w3c"
+    <script src="https://www.w3.org/Tools/respec/respec-w3c" 
             async class="remove"></script>
     <script class="remove">
       var respecConfig = {
@@ -734,8 +734,7 @@
         <dl>
           <dt id="inbox-property">inbox</dt>
           <dd>
-            A reference to an [[!ActivityStreams]]
-            <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection">
+            An <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection">
               <code>OrderedCollection</code></a>
             comprised of all the messages received by the actor; see
             <a href="#inbox"></a>.
@@ -1036,12 +1035,7 @@
         <h2>Followers Collection</h2>
         <p>
           Every <a href="#actors">actor</a> SHOULD have a <code>followers</code>
-          collection.
-          This is a list of everyone who has sent a
-          <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-follow">Follow</a>
-          activity for the actor, added as a
-          <a href="#follow-activity-outbox">side effect</a>.
-          This is where one would find a list of all the actors that are
+          collection. This is where one would find a list of all the actors that are
           following the actor.
           The <code>followers</code> collection MUST be either an
           <a href="https://www.w3.org/TR/activitystreams-vocabulary/#dfn-orderedcollection">
@@ -2026,16 +2020,6 @@ Location: https://dustycloud.org/likes/345
           a user's privacy.
         </p>
 
-        <p>
-          In the case of receiving an <code>Accept</code> referencing this
-          <code>Follow</code> as the object, the server SHOULD add the
-          <code>actor</code> to the object actor's
-          <a href="#followers">Followers Collection</a>.
-          In the case of a <code>Reject</code>, the server MUST NOT add the
-          actor to the object actor's
-          <a href="#followers">Followers Collection</a>.
-        </p>
-
         <div class="note">
           <p>
             Sometimes a successful <code>Follow</code> subscription may
@@ -2444,12 +2428,12 @@ Location: https://dustycloud.org/likes/345
       <p>
         This section is non-normative.
       </p>
-      <li>
-        <ul><strong>2024-01-04</strong>: Include erratum allowing filtering in section 6.11.</ul>
-        <ul><strong>2024-01-04</strong>: Include erratum allowing filtering in section 7.1.1.</ul>
-        <ul><strong>2024-01-04</strong>: Include erratum allowing different ordering in collections in section 5.</ul>
-        <ul><strong>2024-01-04</strong>: Include erratum removing preferredUsername from list of natural-language-enabled properties in section 4.1.</ul>
-      </li>
+      <ul>
+        <li><strong>2024-01-04</strong>: Include erratum allowing filtering in section 6.11.</li>
+        <li><strong>2024-01-04</strong>: Include erratum allowing filtering in section 7.1.1.</li>
+        <li><strong>2024-01-04</strong>: Include erratum allowing different ordering in collections in section 5.</li>
+        <li><strong>2024-01-04</strong>: Include erratum removing preferredUsername from list of natural-language-enabled properties in section 4.1.</li>
+      </ul>
     </section>
   </body>
 </html>
