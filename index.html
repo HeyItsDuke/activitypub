@@ -575,8 +575,7 @@
       <section id="retrieving-objects">
         <h2>Retrieving objects</h2>
         <p>
-          The HTTP GET method may be dereferenced against an object's
-          <code>id</code> property to retrieve the activity.
+          The HTTP GET method may be used to dereference an object's <code>id</code> property to retrieve the object.
           Servers MAY use HTTP content negotiation as defined in [[!RFC7231]] to
           select the type of data to return in response to a request,
           but MUST present the ActivityStreams object representation
@@ -586,7 +585,7 @@
           response to <code>application/activity+json</code> as well.
           The client MUST specify an <code>Accept</code> header with the
           <code>application/ld+json; profile="https://www.w3.org/ns/activitystreams"</code>
-          media type in order to retrieve the activity.
+          media type in order to retrieve the object.
         </p>
         <p>
           Servers MAY implement other behavior for requests which do not comply
