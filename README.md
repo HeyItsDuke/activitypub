@@ -16,7 +16,7 @@ ActivityPub was developed by the [Social Web Working Group](https://www.w3.org/S
 - The [SocialCG](https://www.w3.org/community/socialcg/) is the community group that maintains the specification. It meets regularly to discuss the specification and its implementations.
 - The [ActivityPub Primer](https://www.w3.org/wiki/ActivityPub/Primer) gives deeper explanations of topics described in the specification.
 - The [ActivityPub WebFinger profile](https://swicg.github.io/activitypub-webfinger/) describes how to use WebFinger with ActivityPub.
-- The [ActivityPub HTTP Signatures profile](https://swicg.github.io/activitypub-http-signatures/) describes how to use HTTP Signatures with ActivityPub.
+- The [ActivityPub HTTP Signature profile](https://swicg.github.io/activitypub-http-signature/) describes how to use HTTP Signature with ActivityPub.
 - The [ActivityPub Data Portability task force](https://swicg.github.io/activitypub-data-portability/) describes how to use ActivityPub for data portability.
 
 ## Editors
