@@ -53,7 +53,7 @@ To handle editorial errors like spelling or grammar mistakes, unclear or ambiguo
 1. Make a GitHub issue.
 2. The editor will make a [proposed erratum](https://www.w3.org/wiki/ActivityPub_errata/Proposed) for review by the Social Web Working Group.
 3. At a future Social Web WG meeting, the group will review the proposed erratum and decide whether to accept it. Accepted errata are added to the [errata](https://www.w3.org/wiki/ActivityPub_errata) page.
-4. The editor will incorporate the errata into the [Editor's Draft](https://w3.github.io/activitypub/).
+4. The editor will incorporate the errata into the [Editor's Draft](https://w3c.github.io/activitypub/).
 5. Errata are periodically deployed to the main [ActivityPub specification](https://www.w3.org/TR/activitypub/).
 
 ### Backwards-compatible changes
